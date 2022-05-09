@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <style>
+            p.solid {
+                border-style: solid;
+                border-color: white;
+                margin-right: 70%;
+            }
+            p.color{
+                border-style: solid;
+                border-color: purple;
+                margin-right: 70%;
+            }  
+            body {
+                background-color: black;
+                color: aqua;
+                font-family: 'Courier New', Courier, monospace;
+                margin: 2%;
+                background-image: url(https://media.istockphoto.com/vectors/abstract-futuristic-background-with-hexagons-dark-scifi-hitech-with-vector-id1315800229?k=20&m=1315800229&s=612x612&w=0&h=l_AO5piHvWhegTZzbZZwXZJ9fS5EyydWA2GnwbsF5IU=);
+            }
+            h1 {
+                text-align: center;
+            }
+            hr {
+                color: black;
+                background-color: black;
+                border: none;
+            }
+            form{
+                text-align: right;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>My Little Phony</h1>
+        <h2>Details</h2>
+        <hr>
+        <p class="solid">Capper </p>
+        <p class="solid">Rarity</p>
+        <p class="solid">Princess Luna</p>
+        <p class="color">Add A New Friend</p>
+        <form>
+            Friend's Name: <input type="text" name="name" placeholder="Name"> 
+            <hr> 
+            Email Address: <input type="text" name="emailname" placeholder="Email Address"> 
+            <hr>
+            Phone Number: <input type="text" name="phonenumber" placeholder="Phone Number"> 
+            <hr>
+            Address: <input type="text" name="address" placeholder="Address"> 
+            <hr>    
+            <input type="submit" value="Submit">           
+        </form>
+    </body>
+</html>
